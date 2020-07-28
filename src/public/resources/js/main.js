@@ -135,7 +135,7 @@ function sendTaskToAPI(item, callback) {
   });
 
   req.addEventListener('error', (e) => {
-    console.log('dang, something bad happened.');
+    console.log('aw man, thats a no-no');
     console.log(e);
   });
 }
@@ -156,7 +156,7 @@ function getTasks(callback) {
   });
 
   req.addEventListener('error', (e) => {
-    console.log('dang, something bad happened.');
+    console.log('aw man, thats a no-no');
     console.log(e);
   });
 }
